@@ -1,0 +1,44 @@
+.section-mid-container {
+  display: flex;
+  flex-direction: column;
+}
+.section-demo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.section-message-box {
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin: 20px auto;
+  border-left: 8px solid;
+  border-color: #4d4dff;
+}
+.section-message-text {
+  color: #4d4dff;
+}
+.section-demo-image {
+  border: 5px solid;
+}
+.section-demo-text {
+  margin-top: 50px;
+}
+.section-image {
+  height: 400px;
+  width: 500px;
+}
+.section-demo-heading {
+  line-height: 1.1;
+  font-weight: 750;
+  font-size: 38px;
+}
+.section-demo-paragraph {
+  line-height: 1.4;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+  width: 75%;
+  margin-top: 50px;
+}
